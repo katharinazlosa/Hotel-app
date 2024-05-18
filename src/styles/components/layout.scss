@@ -1,0 +1,9 @@
+.container {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hide-header {
+  .header {
+    opacity: 0;
+  }
+}

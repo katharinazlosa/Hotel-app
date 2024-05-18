@@ -1,0 +1,38 @@
+.form {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 8rem;
+  .form-title {
+    margin-top: 3rem;
+    font-size: 5rem;
+  }
+  .form-container {
+    background-color: white;
+    width: 70vw;
+    height: 90vh;
+    padding: 5.5rem;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    font-size: 2rem;
+    .input {
+      outline: 0;
+      border-width: 0 0 0.2rem;
+      border-color: grey;
+      font-size: 2rem;
+      padding: 0.2rem;
+      color: black;
+      grid-column: span 2;
+      width: 35rem;
+    }
+    .textarea {
+      grid-column: span 2;
+    }
+    label {
+      padding: 1rem 0;
+    }
+  }
+}

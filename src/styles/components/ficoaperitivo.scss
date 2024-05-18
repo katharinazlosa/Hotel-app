@@ -1,0 +1,14 @@
+.ficoaperitivo-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 13rem 13rem;
+  img {
+    width: 70vw;
+  }
+  h1 {
+    padding: 2rem 0;
+    font-size: 5rem;
+  }
+}

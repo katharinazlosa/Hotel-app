@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+p {
+  font-size: 2rem;
+  padding: 3rem;
+}
+img {
+  border-radius: 1.5rem;
+}
+:root {
+  //colors
+  --color-white: #fff;
+  --color-black: #333;
+  --color-grey: #2c2b2b;
+  --color-gold: gold;
+  --color-red-500: #c0392b;
+  --color-green-500: #27ae60;
+  --color-blue-250: #bcd3e2;
+  --color-blue-500: #2980b9;
+  //   --color-purplegradient: linear-gradient(
+  //     to right,
+  //     #800080,
+  //     #743da5,
+  //     #5f5fc4,
+  //     #407cdb,
+  //     #1297eb
+  //   );
+  //   --color-purple-500: #5f5fc4;
+  //   --color-overlay: rgba(97, 97, 97, 0.788);
+
+  //   //border
+  //   --border-rounded: 0.5rem;
+}
+
+// //responsive breakpoints
+// $media-sm: 37.5em;
+// $media-md: 53em;
+// $media-lg: 64em;
+
+// //imports
+
+// //components
+@import "./components/header.scss";
+@import "./components/layout.scss";
+@import "./components/button.scss";
+@import "./components/footer.scss";
+@import "./components/form.scss";
+@import "./components/info.scss";
+@import "./components/cuisine.scss";
+@import "./components/roomsgallery.scss";
+@import "./components/banner.scss";
+@import "./components/rooms.scss";
+@import "./components/booking.scss";
+@import "./components/ficoaperitivo.scss";
+@import "./components/heritage.scss";
+
+// //features
+
+// //utils
