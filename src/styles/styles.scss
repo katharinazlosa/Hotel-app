@@ -27,27 +27,14 @@ img {
 }
 :root {
   //colors
-  --color-white: #fff;
-  --color-black: #333;
-  --color-grey: #2c2b2b;
-  --color-gold: gold;
-  --color-red-500: #c0392b;
-  --color-green-500: #27ae60;
-  --color-blue-250: #bcd3e2;
-  --color-blue-500: #2980b9;
-  //   --color-purplegradient: linear-gradient(
-  //     to right,
-  //     #800080,
-  //     #743da5,
-  //     #5f5fc4,
-  //     #407cdb,
-  //     #1297eb
-  //   );
-  //   --color-purple-500: #5f5fc4;
-  //   --color-overlay: rgba(97, 97, 97, 0.788);
-
-  //   //border
-  //   --border-rounded: 0.5rem;
+  // --color-white: #fff;
+  // --color-black: #333;
+  // --color-grey: #2c2b2b;
+  // --color-gold: gold;
+  // --color-red-500: #c0392b;
+  // --color-green-500: #27ae60;
+  // --color-blue-250: #bcd3e2;
+  // --color-blue-500: #2980b9;
 }
 
 // //responsive breakpoints
@@ -57,7 +44,6 @@ img {
 
 // //imports
 
-// //components
 @import "./components/header.scss";
 @import "./components/layout.scss";
 @import "./components/button.scss";
@@ -71,7 +57,4 @@ img {
 @import "./components/booking.scss";
 @import "./components/ficoaperitivo.scss";
 @import "./components/heritage.scss";
-
-// //features
-
-// //utils
+@import "./components/contact.scss";

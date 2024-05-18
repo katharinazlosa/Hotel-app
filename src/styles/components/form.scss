@@ -36,3 +36,49 @@
     }
   }
 }
+
+@media (min-width: 37.5em) {
+  .form {
+    .form-title {
+      margin-top: 2rem;
+      font-size: 3rem;
+    }
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      width: 70vw;
+      height: 130vh;
+      font-size: 1.5rem;
+      .input {
+        width: 50vw;
+      }
+    }
+  }
+}
+
+@media (min-width: 53em) {
+  .form {
+    .form-title {
+      margin-top: 2rem;
+      font-size: 3rem;
+    }
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      width: 70vw;
+      height: 130vh;
+      font-size: 1.5rem;
+      .input {
+        width: 50vw;
+      }
+    }
+  }
+}
+
+@media (min-width: 64em) {
+  .responsive-box {
+    background-color: blueviolet;
+  }
+}
